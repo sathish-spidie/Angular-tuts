@@ -1,0 +1,58 @@
+export const data = [
+  {
+    orderID: "1",
+    amountPaid: 1200,
+    paidBy: "Sundar",
+    paymentStatus: "paid",
+    paymentMode: "UPI",
+  },
+  {
+    orderID: "2",
+    amountPaid: 3200,
+    paidBy: "Sathish",
+    paymentStatus: "paid",
+    paymentMode: "UPI",
+  },
+  {
+    orderID: "3",
+    amountPaid: 5200,
+    paidBy: "Saravanan",
+    paymentStatus: "paid",
+    paymentMode: "UPI",
+  },
+  {
+    orderID: "4",
+    amountPaid: 8200,
+    paidBy: "Sabari",
+    paymentStatus: "unpaid",
+    paymentMode: "UPI",
+  },
+  {
+    orderID: "5",
+    amountPaid: 2200,
+    paidBy: "Sethu",
+    paymentStatus: "paid",
+    paymentMode: "UPI",
+  },
+  {
+    orderID: "6",
+    amountPaid: 6200,
+    paidBy: "Rahul",
+    paymentStatus: "paid",
+    paymentMode: "UPI",
+  },
+  {
+    orderID: "7",
+    amountPaid: 3700,
+    paidBy: "Ranjith",
+    paymentStatus: "paid",
+    paymentMode: "UPI",
+  },
+  {
+    orderID: "8",
+    amountPaid: 6700,
+    paidBy: "Santhosh",
+    paymentStatus: "paid",
+    paymentMode: "UPI",
+  },
+];

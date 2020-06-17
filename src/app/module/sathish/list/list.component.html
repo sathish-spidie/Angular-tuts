@@ -1,0 +1,16 @@
+<h1>Payment Details</h1>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col" *ngFor="let column of paymentColumns">{{ column.header }}</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let row of paymentData">
+    <td *ngFor="let column of paymentColumns">
+      {{ row[column.value]}}
+    </td>
+  </tr>
+  </tbody>
+</table>
+  
